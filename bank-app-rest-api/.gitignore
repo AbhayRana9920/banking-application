@@ -1,0 +1,47 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans #### Bank App REST API
+
+This is a Spring Boot-based REST API for managing bank accounts. It provides endpoints for creating, retrieving, updating, and deleting accounts, as well as performing deposit and withdrawal operations.
+
+## Features
+
+- Create a new bank account
+- Retrieve account details by ID
+- Deposit and withdraw funds
+- List all accounts
+- Delete an account
+- Global exception handling for better error responses
+
+## Project Structure
+
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
